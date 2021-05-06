@@ -17,3 +17,5 @@ sync.sh
 *.p12
 .env
 db
+cloudlog-cron
+.htaccess
