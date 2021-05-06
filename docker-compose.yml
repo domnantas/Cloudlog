@@ -2,6 +2,7 @@ version: "3"
 services:
   web:
     build: .
+    restart: always
     volumes:
       - ./assets/qslcard/:/var/www/html/assets/qslcard/
       - ./backup/:/var/www/html/backup/
